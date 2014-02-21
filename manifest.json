@@ -1,0 +1,33 @@
+{
+  "name": "Asana - Inbox and My Task shortcuts",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Add 2 keyboard shortcuts to Asana to easily access your Inbox (i) and My tasks (t) views.",
+  "homepage_url": "http://asana.com",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "background": {
+    "scripts": [
+      "src/bg/background.js"
+    ],
+    "persistent": false
+  },
+  "permissions": [
+    "https://app.asana.com/",
+    "http://app.asana.com/"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.asana.com/*"
+      ],
+      "js": [
+        "src/inject/inject.js"
+      ],
+      "run_at": "document_end"
+    }
+  ]
+}
