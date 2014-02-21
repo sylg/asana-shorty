@@ -7,4 +7,4 @@ This chrome extensiom simply add 2 shortcuts to Asana
 * Pressing `i` will open your **Inbox** in your current workspace
 * Pressing `t` will open your **My Tasks** view in your current workspace
 
-To install the chrome extension, simply go to the [Google Web Store](https://chrome.google.com/webstore/detail/ahndacpggoienhjidhhkocggjlogdlnl/).
+To install the chrome extension, simply go to the [Google Web Store](https://chrome.google.com/webstore/detail/asana-inbox-and-my-task-s/ahndacpggoienhjidhhkocggjlogdlnl).
